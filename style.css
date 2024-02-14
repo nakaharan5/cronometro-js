@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.caixa{
+    font-size: 7rem;
+}
+
+button{
+    font-size: 1rem;
+    width: 7rem;
+    height: 5rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    border: 1px dashed rgb(86, 13, 211);
+}
+
+#comecar{
+    background-color: rgb(133, 233, 32);
+}
+#pausar{
+    background-color: rgb(215, 32, 69);
+}
+#zerar{
+    background-color: rgb(235, 229, 40);
+}
